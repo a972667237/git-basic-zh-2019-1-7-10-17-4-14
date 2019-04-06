@@ -1,6 +1,5 @@
 package cn.school.thoughtworks.section1;
 
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
@@ -23,8 +22,6 @@ public class PracticeA {
         //实现练习要求，并改写该行代码。
         // using bit map?
         // assume that collection1 and collection2 only have english alphabet
-        System.out.println(collection1);
-        System.out.println(collection2);
         long bitmap = 0;
         List<String> same_list = new ArrayList<String>();
         Iterator<String> collection_setter_iter, collection_filter_iter;
