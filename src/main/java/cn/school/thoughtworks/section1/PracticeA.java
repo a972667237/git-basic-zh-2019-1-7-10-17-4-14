@@ -14,7 +14,6 @@ public class PracticeA {
     }
 
     private final boolean isIndexActive(long bitmap, int index) {
-        System.out.println((bitmap >> index) & 1);
         return ((bitmap >> index) & 1) == 1;
     }
 
